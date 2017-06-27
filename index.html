@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+
+  <!-- this is inline styling!! -->
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    #boxmodel{
+      height: 400px;
+      width: 600px;
+      background-color: lightblue;
+      border: 10px solid black;
+    }
+
+    /*some extra fancy stuff to put out box in the center*/
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div id="boxmodel">
+
+  </div>
+
+
+<!-- this is inline Javascript!! -->
+<script>
+  console.log('document loaded');
+  console.log(document.querySelector('#boxmodel'));
+</script>
+</body>
+</html>
