@@ -33,6 +33,8 @@ HTML elements can be **Inline** or **Block** elements. We are going to focus on 
 
 ### Height and width 
 When the box is empty, it's collapsed
+![Collapsed Box](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZq6_L5-DUAhXp7IMKHVEfAPcQjRwIBw&url=http%3A%2F%2Fwww.campshippers.com%2Fbox.html&psig=AFQjCNHgHhucrIYd3-vrx0-jMGmukVG_7A&ust=1498748521831883)  
+![Box with Cat](http://cdn2-www.cattime.com/assets/uploads/2016/08/CardboardCollapsed.png)
 Try adding `background-color: firebrick` in the body `<body>` tag.  
 > If body has no content or no height it will not show red at all. Same goes for any block element
 
@@ -63,8 +65,9 @@ TOP, RIGHT, BOTTOM, LEFT
 ## Sidewalk, Fence, Garden, House example... To the whiteboard!
 IMPORTANT: when you add values to each one of these they will SUM UP as part of the perimeter of the whole element (read, the bigger our values, the more garden, fence and sidewalk we are going to have). 
 
-## Let's do some exercise
-
+## Let's do some exercises
+Look into `index.html` file and let's start styling:
+1. 
 ## Wrap up 
 
 ## Resources
