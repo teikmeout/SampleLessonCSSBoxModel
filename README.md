@@ -29,14 +29,31 @@ At the end of this lesson you will know
 ## Content
 ### HTML elements
 As simple as that, ANY HTML element = BOX, that simple.  
-HTML elements can be **Inline** or **Block** elements. We are going to focus on the block elements.  
+HTML elements can be [**Inline**](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) or [**Block**](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) elements. We are going to focus on the block elements.  
 
-### Height and width 
+### Brief Introduction: Height and width 
 When the box is empty, it's collapsed
-![Collapsed Box](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZq6_L5-DUAhXp7IMKHVEfAPcQjRwIBw&url=http%3A%2F%2Fwww.campshippers.com%2Fbox.html&psig=AFQjCNHgHhucrIYd3-vrx0-jMGmukVG_7A&ust=1498748521831883)  
+![Collapsed Box](http://www.campshippers.com/photos/box/flat.jpg)  
+
+**Let's head over to our index.html!!**  
+Let's try adding `background-color: firebrick` in the body `<body>` tag, like this:  
+```css
+body {
+    background-color: firebrick;
+}
+```
+
+Why don't we see red in the page right now? 😫 😩 😤
+> If body has no content or no defined height it will not show red at all. Same goes for any block element: it's collapsed  
+
+By adding content we can make the box appear in the HTML page...  
 ![Box with Cat](http://cdn2-www.cattime.com/assets/uploads/2016/08/CardboardCollapsed.png)
-Try adding `background-color: firebrick` in the body `<body>` tag.  
-> If body has no content or no height it will not show red at all. Same goes for any block element
+```css
+body {
+    background-color: firebrick;
+    height: 100%;
+}
+```
 
 ### The four properties of the box-model  
 ![](https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)  
@@ -67,8 +84,14 @@ IMPORTANT: when you add values to each one of these they will SUM UP as part of 
 
 ## Let's do some exercises
 Look into `index.html` file and let's start styling:
-1. 
+1. Make a div, with a fancy border  
+2. Give me the dimmensions considering thickness of the box-model  
+
 ## Wrap up 
+What did we learn?
+1. CSS height (and why it's important)
+2. CSS width
+3. CSS Box Model
 
 ## Resources
 - [W3Schools CSS box model](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwi9jrbF7t7UAhVKOT4KHamxCdAQFggsMAE&url=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss_boxmodel.asp&usg=AFQjCNFDEcG_RtTiv54J65CJ5iyZKa4SkQ&cad=rja)  
