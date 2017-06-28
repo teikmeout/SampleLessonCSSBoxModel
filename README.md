@@ -32,7 +32,7 @@ As simple as that, ANY HTML element = BOX, that simple.
 HTML elements can be [**Inline**](https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements) or [**Block**](https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements) elements. We are going to focus on the block elements.  
 
 ### Brief Introduction: Height and width 
-When the box is empty, it's collapsed
+When the box is empty, it's collapsed  
 ![Collapsed Box](http://www.campshippers.com/photos/box/flat.jpg)  
 
 **Let's head over to our index.html!!**  
