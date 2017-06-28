@@ -8,7 +8,8 @@ HighSchool Students (16-18)
 
 ## Lesson Goals
 At the end of this lesson you will know
-- [ ] what the **box model** is.
+- [ ] what is the `box model`?
+- [ ] the importance of `height`  
 - [ ] properties that conform the box model
     - [ ] Margin
     - [ ] Border
@@ -58,20 +59,24 @@ body {
 ### The four properties of the box-model  
 ![](https://www.washington.edu/accesscomputing/webd2/student/unit3/images/boxmodel.gif)  
 
-*Margin* - most exterior space around the HTML object, it's like the force, it pushes our box away from others.  
+*Margin* - most exterior space around the HTML object, it's like the force, it pushes our box away from others (INVISIBLE SPACE).  
 *Border* - delimits the surroundings, like a fence. The fence **has thickness too!**  
-*Padding* - the filling between our content and the border.  
-*Content* - Whatever we put inside of this box.  
+*Padding* - the filling between our content and the border (INVISIBLE SPACE).  
+*Content* - Whatever we put inside of this box (THINK KITTY ABOVE).  
 
 We can modify the values of these by tagetting our div...  
+Observe closely and let's discuss what we see...  
 ```css
 div {
     height: 100px;
     width: 100px;
     /*with no height and width our div would not appear*/
     margin: 100px 100px 100px 100px;
+    /*why four values?? ^^ any ideas?*/
     border: 20px solid black;
+    /*hmmm three things, what do they mean?*/
     padding: 20px;
+    /*were we not expecting 4 values here? */
 }
 ```
 
@@ -84,14 +89,19 @@ IMPORTANT: when you add values to each one of these they will SUM UP as part of 
 
 ## Let's do some exercises
 Look into `index.html` file and let's start styling:
-1. Make a div, with a fancy border  
+1. Make a div, with a thick fancy border of 25px with the color `rebeccapurple`
 2. Give me the dimmensions considering thickness of the box-model  
 
 ## Wrap up 
 What did we learn?
-1. CSS height (and why it's important)
-2. CSS width
-3. CSS Box Model
+- [x] box model: everything is a box in HTML
+    - [x] Margin: exterior separation from the element, invisible  
+    - [x] Border: delimiter of the exterior of the HTML element  
+    - [x] Padding: spacing between the border and the content, invisible  
+    - [x] Content: whatever you want to put there
+- [x] How to set and modify these properties
+- [x] top, right, bottom, left
+
 
 ## Resources
 - [W3Schools CSS box model](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&ved=0ahUKEwi9jrbF7t7UAhVKOT4KHamxCdAQFggsMAE&url=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fcss_boxmodel.asp&usg=AFQjCNFDEcG_RtTiv54J65CJ5iyZKa4SkQ&cad=rja)  
